@@ -35,6 +35,8 @@ class User extends Resource
         'id', 'name', 'email',
     ];
 
+    public static $displayInNavigation = false;
+
     /**
      * Get the fields displayed by the resource.
      *
